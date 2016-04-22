@@ -1,0 +1,20 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+
+  <!-- You write code for this content block in another file -->
+  {% block content %} {% endblock %}
+
+  <!-- Adds the navigation partial -->
+  {% include "partials/navigation.nunjucks" %}
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "gulp-starter",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Rodel Medina <medinarodelsamson@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}
